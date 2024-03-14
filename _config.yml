@@ -1,30 +1,32 @@
-title: cvless
-description: Jekyll theme for a beautiful online CV
+title: Miłosz Wąsacz
+description: Personal portfolio
 baseurl: ""
-url: https://piazzai.github.io/cvless
+url: https://miloszwasacz.github.io
 
 theme: cvless
 
 # site settings
-taglong: Jekyll theme for a beautiful online CV
-tagshort: Jekyll theme
+taglong: >
+  Computer Science student<br />
+  at University of Bristol
+tagshort: Personal portfolio
 
 # author settings
 author:
-  name: Place Holder
-  email: username@domain.com
-photo: assets/files/photo.jpg
-address: Foobar Hall 1.23
-phone: +1 234 567 890
+  name: Miłosz Wąsacz
+  email: wasacz.dev@gmail.com
+photo: assets/files/profile_picture.png
+address: University of Bristol, Bristol, United Kingdom
+# phone: +1 234 567 890
 
 # social media links
 social:
-  facebook: username
-  github: username
-  instagram: username
-  linkedin: username
-  stackoverflow: 0000000/username
-  x: username
+  # facebook: username
+  # x: username
+  # instagram: username
+  # linkedin: username
+  stackoverflow: 23104921/miloszwasacz
+  github: miloszwasacz
 
 # build settings
 permalink: pretty
