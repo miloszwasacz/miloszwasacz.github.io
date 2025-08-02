@@ -6,31 +6,51 @@ url: https://miloszwasacz.github.io
 theme: cvless
 
 # site settings
-taglong: >
-  Computer Science student<br />
-  at University of Bristol
+taglong: Computer Science student<br />
+    at University of Bristol
 tagshort: Personal portfolio
+cv: false
 
 # author settings
 author:
-  name: Miłosz Wąsacz
-  email: wasacz.dev@gmail.com
+    name: Miłosz Wąsacz
+    email: wasacz.dev@gmail.com
 photo: assets/files/profile_picture.png
-address: University of Bristol, Bristol, United Kingdom
+joblines:
+    - University of Bristol
+    - Faculty of Science and Engineering
+    - School of Computer Science
+address: Bristol, United Kingdom
 # phone: +1 234 567 890
 
-# social media links
-social:
-  # facebook: username
-  # x: username
-  # instagram: username
-  # linkedin: username
-  stackoverflow: 23104921/miloszwasacz
-  github: miloszwasacz
+# profile links
+profile:
+    github: https://github.com/miloszwasacz
+    stackoverflow: https://stackoverflow.com/users/23104921/miloszwasacz
+    linkedin: https://www.linkedin.com/in/miłosz-wąsacz-047160335
+    # facebook: https://www.facebook.com/username
+    # x: https://x.com/username
+    # mastodon: https://mastodon.social/@username
+    # bluesky: https://bsky.app/profile/username.bsky.social
+    # instagram: https://www.instagram.com/username
+    # xing: https://www.xing.com/profile/username
+    # medium: https://medium.com/@username
 
 # build settings
 permalink: pretty
 exclude:
-  - docker-compose.yml
-  - LICENSE
-  - README.md
+    - LICENSE
+    - README.md
+    - Gemfile
+    - vendor/
+    - docker-compose.yml
+
+plugins:
+    - jekyll-feed
+    - jekyll-gist
+    - jekyll-paginate-v2
+    - jekyll-seo-tag
+    - jekyll-sitemap
+
+sass:
+    sourcemap: never
