@@ -1,0 +1,7 @@
+# Based on https://stackoverflow.com/a/25459859/23104921
+- text: Home
+  url: /
+- text: Projects
+  url: /projects/
+- text: CV
+  url: /cv/

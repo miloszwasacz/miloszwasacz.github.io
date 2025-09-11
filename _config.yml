@@ -6,8 +6,7 @@ url: https://miloszwasacz.github.io
 theme: cvless
 
 # site settings
-taglong: Computer Science student<br />
-    at University of Bristol
+taglong: Computer Science student<br />at University of Bristol
 tagshort: Personal portfolio
 cv: false
 
@@ -27,7 +26,7 @@ address: Bristol, United Kingdom
 profile:
     github: https://github.com/miloszwasacz
     stackoverflow: https://stackoverflow.com/users/23104921/miloszwasacz
-    linkedin: https://www.linkedin.com/in/miłosz-wąsacz-047160335
+    linkedin: https://www.linkedin.com/in/miloszwasacz/
     # facebook: https://www.facebook.com/username
     # x: https://x.com/username
     # mastodon: https://mastodon.social/@username
@@ -36,12 +35,18 @@ profile:
     # xing: https://www.xing.com/profile/username
     # medium: https://medium.com/@username
 
+# collections
+collections:
+    projects:
+        output: true
+
 # build settings
 permalink: pretty
 exclude:
     - LICENSE
     - README.md
     - Gemfile
+    - Gemfile.lock
     - vendor/
     - docker-compose.yml
 

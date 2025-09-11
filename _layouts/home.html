@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article id="home">
+    <header>
+        <div></div>
+	    {% include nav.html nav=site.data.menu %}
+    </header>
+	
+    <main>
+        {{ content }}
+    </main>
+	
+    {% include footer.html %}
+</article>
