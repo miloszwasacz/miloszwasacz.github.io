@@ -15,6 +15,9 @@
     {% if site.author.email %}
     <li><span class="li-icon">{% include svg/mail.svg %}</span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
     {% endif %}
-    <li><span class="li-icon">{% include svg/internet.svg %}</span><a href="{{ site.url }}">{{ site.url }}</a></li>
+    {% if site.profile.linkedin %}
+    <li><span class="li-icon">{% include svg/linkedin.svg %}</span><a href="{{ site.profile.linkedin }}">miloszwasacz</a></li>
+    {% endif %}
+    <!-- <li><span class="li-icon">{% include svg/internet.svg %}</span><a href="{{ site.url }}">{{ site.url }}</a></li> -->
   </ul>
 </div>

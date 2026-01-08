@@ -8,7 +8,7 @@ theme: cvless
 # site settings
 taglong: Computer Science student<br />at University of Bristol
 tagshort: Personal portfolio
-cv: false
+cv: true
 
 # author settings
 author:
@@ -26,7 +26,7 @@ address: Bristol, United Kingdom
 profile:
     github: https://github.com/miloszwasacz
     stackoverflow: https://stackoverflow.com/users/23104921/miloszwasacz
-    linkedin: https://www.linkedin.com/in/miloszwasacz/
+    linkedin: https://www.linkedin.com/in/miloszwasacz
     # facebook: https://www.facebook.com/username
     # x: https://x.com/username
     # mastodon: https://mastodon.social/@username
