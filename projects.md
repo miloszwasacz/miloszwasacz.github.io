@@ -3,4 +3,14 @@ layout: page
 title: Projects
 ---
 
-Test 123
+{% for project in site.projects %}
+
+## [{{ project.title }}]({{ project.url }})
+
+{{ project.description | markdownify }}
+
+{% if forloop.last == false %}
+---
+{% endif %}
+
+{% endfor %}

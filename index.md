@@ -5,7 +5,10 @@ title: Home
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Hi, I'm Miłosz, a final year Computer Science student at University of Bristol. I'm mostly interested in computer architecture, operating systems, embedded programming, compilers, and programming language design. Check out my [projects](projects) to learn more about what I do in my spare time.
+{: style="text-align: justify"}
+
+<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 This is the home page. It can be used for a short introduction. [Click here](cv) to see the full CV, and [here](assets/files/cv.pdf) to download a print version. The theme also ships with a blog: [click here](posts) to scroll posts from the most recent. Finally, [click here](404) to see a page that can't be found.
 
@@ -15,4 +18,4 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Below is a list of blog posts included for illustrative purposes. Make sure to delete or modify them before deploying your website.
 
-{% include archive.html %}
+{% include archive.html %} -->
